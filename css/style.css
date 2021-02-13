@@ -1,0 +1,19 @@
+.navbar {
+    background-color: white;
+}
+
+.nav-link, .display-4 {
+    color: #ff0044;
+}
+
+.jumbotron {
+    margin-top: 176px;
+    text-align: center;
+    background-color: white;
+}
+
+.carousel-item > img {
+    width: 1200px;
+    height: 640px;
+}
+
