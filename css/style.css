@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
     background-color: white;
 }
 
-.nav-link, .display-4 {
+.nav-link, .display-4, .py-3, .fas {
     color: #ff0044;
 }
 
@@ -17,3 +23,57 @@
     height: 640px;
 }
 
+svg {
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.icons, .gallery, .services, .contact, footer {
+    margin-top: 100px;
+    border-top: #ff0044 1px solid;
+}
+
+.col-md-12 {
+    color: #ff0044;
+    text-align: center;
+}
+
+.gallery img {
+    border-radius: 5px;
+    height: 200px;
+}
+
+.col-md-8 > img {
+    border-radius: 5px;
+}
+
+.head {
+    background-color: #ff0044;
+    border-radius: 5px;
+}
+
+.fas {
+    font-size: 24px;
+}
+
+.effect-1 {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: #ff0044 1px solid;
+
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.color {
+    color: #ff0044;
+}
+
+a:link {
+    color: red;
+  }
