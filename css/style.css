@@ -51,7 +51,8 @@ svg {
 .head {
     background-color: #ff0044;
     border-radius: 5px;
-}
+    color: white !important;
+ }
 
 .fas {
     font-size: 24px;
