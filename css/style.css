@@ -12,6 +12,10 @@ body {
     color: #ff0044 !important;
 }
 
+.fixed-top {
+    background-color: white;
+}
+
 .jumbotron {
     margin-top: 300px;
     text-align: center;
